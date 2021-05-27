@@ -1,9 +1,11 @@
-puts 1 + 2
+country = 'nil'
 
-a = "Hello World"
-puts a
+message =
+case country
+    when 'japan' then 'konitiha!rui!'
+    when 'usa' then 'karrrrryy!'
+    when 'italy' then 'ciao!'
+    else 'we are the worrrrr!'
+end
 
-b = "こんにちは"
-puts b
-
-puts %q!he said,"dont speak."!
+puts message
