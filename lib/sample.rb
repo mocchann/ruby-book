@@ -1,11 +1,4 @@
-country = 'nil'
-
-message =
-case country
-    when 'japan' then 'konitiha!rui!'
-    when 'usa' then 'karrrrryy!'
-    when 'italy' then 'ciao!'
-    else 'we are the worrrrr!'
+[1,2,3,4].map do |n|
+    m = n * 4
+    m.to_s
 end
-
-puts message
